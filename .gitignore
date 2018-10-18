@@ -1,0 +1,19 @@
+
+# Created by https://www.gitignore.io/api/maven
+
+### Maven ###
+/frontend/src/main/frontend/node_modules/**
+/.idea/**
+/frontend/target/**
+/backend/target/**
+frontend/*.iml
+backend/*.iml
+*.iml
+/frontend/src/main/frontend/node/node_modules/**
+/frontend/src/main/frontend/node/**
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+
+# End of https://www.gitignore.io/api/maven
